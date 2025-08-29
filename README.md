@@ -103,6 +103,8 @@ Material(
   ),
 )
 ```
+### Tabla principal ejemplo:
+![Tabla Inicial](assets/images/tabla_inicial.jpg)
 
 ## Diálogo de Visualización
 La función mostrarDialogoEstructura muestra un diálogo con dos vistas alternativas:
@@ -341,6 +343,13 @@ Future<void> mostrarDialogoEstructura({
   );
 }
 ```
+### Imágenes de la Funcionalidad
+#### Tabla Generada a partir del JSON
+Visualiza los registros generados dinámicamente desde la estructura JSON:
+![Tabla Generada](assets/images/tabla_generada.jpg)
+#### Vista del JSON Completo
+Muestra el diálogo con la vista JSON y resaltado de sintaxis:
+![Vista JSON](assets/images/vista_json.jpg)
 
 ## Características Principales
 
